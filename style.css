@@ -1,163 +1,168 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 3px;
-  overflow: hidden;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 3px;
+	overflow: hidden;
 }
 
 .container {
-  background: #171117;
-  color: #fff;
-  padding: 2rem;
-  width: 40%;
-  margin: 1.5rem auto;
-  border-radius: 10px;
+	background: #171117;
+	color: #fff;
+	padding: 2rem;
+	width: 40%;
+	margin: 1.5rem auto;
+	border-radius: 10px;
 }
 
 .weather__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 input {
-  width: 285px;
-  border: none;
-  background: #1e1e1e;
-  outline: none;
-  color: #fff;
-  padding: 0.5rem 2.5rem;
-  border-radius: 5px;
+	width: 285px;
+	border: none;
+	background: #1e1e1e;
+	outline: none;
+	color: #fff;
+	padding: 0.5rem 2.5rem;
+	border-radius: 5px;
 }
 
 input::placeholder {
-  color: #fff;
+	color: #fff;
 }
 
 .weather__search {
-  position: relative;
+	position: relative;
 }
 
 .weather__search i {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  font-size: 15px;
-  color: #fff;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	font-size: 15px;
+	color: #fff;
 }
 
 .weather__units {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .weather__units span {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .weather__units span:first-child {
-  margin-right: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .weather__body {
-  text-align: center;
-  margin-top: 3rem;
+	text-align: center;
+	margin-top: 3rem;
 }
 
 .weather__datetime {
-  margin-bottom: 2rem;
-  font-size: 14px;
+	margin-bottom: 2rem;
+	font-size: 14px;
 }
 
 .weather__forecast {
-  background: #1e1e1e;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 30px;
+	background: #1e1e1e;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	border-radius: 30px;
 }
 
 .weather__icon img {
-  width: 100px;
+	width: 100px;
 }
 
 .weather__temperature {
-  font-size: 1.75rem;
+	font-size: 1.75rem;
 }
 
 .weather__minmax {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .weather__minmax p {
-  font-size: 14px;
-  margin: 0.5rem;
+	font-size: 14px;
+	margin: 0.5rem;
 }
 
 .weather__info {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
-  margin-top: 3rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+	margin-top: 3rem;
 }
 
 .weather__card {
-  display: flex;
-  align-items: center;
-  background: #1e1e1e;
-  padding: 1rem;
-  border-radius: 10px;
+	display: flex;
+	align-items: center;
+	background: #1e1e1e;
+	padding: 1rem;
+	border-radius: 10px;
 }
 
 .weather__card i {
-  font-size: 1.5rem;
-  margin-right: 1rem;
+	font-size: 1.5rem;
+	margin-right: 1rem;
 }
 
 .weather__card p {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 @media (max-width: 936px) {
-  .container {
-    width: 90%;
-  }
+	.container {
+		width: 90%;
+	}
 
-  .weather__header {
-    flex-direction: column;
-  }
+	.weather__header {
+		flex-direction: column;
+	}
 
-  .weather__units {
-    margin-top: 1rem;
-  }
+	.weather__units {
+		margin-top: 1rem;
+	}
 }
 
 @media (max-width: 400px) {
-  .weather__info {
-    grid-template-columns: none;
-  }
+	.weather__info {
+		grid-template-columns: none;
+	}
 }
 
 .card-container {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: space-between;
-  gap: 0.75rem;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	gap: 0.75rem;
 }
 
 .card {
-  background-color: #1e1e1e;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  box-sizing: border-box;
-  border-radius: 10px;
-  width: 175px;
-  height: 130px;
+	background-color: #1e1e1e;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 175px;
+	height: 130px;
 }
 a {
-  color: white;
+	color: white;
+}
+
+.link {
+	margin-top: 10px;
+	font-size: 8px;
 }
